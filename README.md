@@ -27,10 +27,10 @@ Step 20: chown root:wazuh /var/ossec/integrations/custom-telegram*<br>
 Step 21: chmod 750 /var/osseec/integrations/custom-integration*<br>
 Step 22: open the ossec.conf # nano /var/ossec/etc/ossec.conf<br>
 Step 23: upload the followwing command<br>
-    <integration>
-        <name>custom-telegram</name>
-        <level>3</level>
-        <hook_url>https://api.telegram.org/bot *your_Bot_id_token_id*/sendMessage</hook_url>
-        <alert_format>json</alert_format>
-    </integration>
+  <br>  <integration>
+  <br>        <name>custom-telegram</name>
+  <br>      <level>3</level>
+  <br>      <hook_url>https://api.telegram.org/bot *your_Bot_id_token_id*/sendMessage</hook_url>
+   <br>     <alert_format>json</alert_format>
+ <br>   </integration><br>
 Step 24: Restart the wazuh-manager # systemctl restart wazuh-manager.
