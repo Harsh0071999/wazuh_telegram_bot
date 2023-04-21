@@ -3,7 +3,7 @@ Send alert in telegram from wazuh
 
 
 # use the setp provided here for fetch the log from wazuh to telegram.
-Step 1: open telegram
+Step 1: open telegram 
 Step 2: search for Bot Father AI in telegram .
 image.png
 Step 3: Start the bot (just click start)
@@ -30,7 +30,7 @@ Step 23: upload the followwing command
     <integration>
         <name>custom-telegram</name>
         <level>3</level>
-        <hook_url>https://api.telegram.org/bot*your_Bot_id_token_id*/sendMessage</hook_url>
+        <hook_url>https://api.telegram.org/bot *your_Bot_id_token_id*/sendMessage</hook_url>
         <alert_format>json</alert_format>
     </integration>
 Step 24: Restart the wazuh-manager # systemctl restart wazuh-manager.
