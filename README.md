@@ -3,6 +3,7 @@ Send alert in telegram from wazuh
 
 
 # use the setp provided here for fetch the log from wazuh to telegram.
+<br>
 Step 1: open telegram 
 Step 2: search for Bot Father AI in telegram .
 image.png
