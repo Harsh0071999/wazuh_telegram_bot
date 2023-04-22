@@ -58,3 +58,16 @@ Step 23: upload the followwing command
 Step 24: Restart the wazuh-manager # systemctl restart wazuh-manager.
 
 
+
+## Acknowledgements
+
+ - [OpenSecureCo](https://github.com/OpenSecureCo/Demos/blob/main/Telegram%20Integration)
+ - [BotFather](https://telegram.me/BotFather)
+ - [ChatID](https://sean-bradley.medium.com/get-telegram-chat-id-80b575520659)
+ - [RawDataBot](https://t.me/RawDataBot)
+
+
+## Authors
+
+- [@harsh0071999](https://github.com/Harsh0071999)
+
