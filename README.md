@@ -31,7 +31,7 @@ Step 13: Now move back to server.
 
 Step 14: nano /var/ossec/integrations/custom-telegram
 
-Step 15: paste the file name custom-telegram.
+Step 15: paste the file name custom-telegram and custom-telegram.py from git repo.
 
 Step 16: save and close the file.
 
@@ -43,7 +43,7 @@ Step 19: change the permission of both the file.
 
 Step 20: chown root:wazuh /var/ossec/integrations/custom-telegram*
 
-Step 21: chmod 750 /var/osseec/integrations/custom-telegram*
+Step 21: chmod 750 /var/ossec/integrations/custom-telegram*
 
 Step 22: open the ossec.conf # nano /var/ossec/etc/ossec.conf
 
