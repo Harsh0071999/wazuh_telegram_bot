@@ -43,7 +43,7 @@ Step 19: change the permission of both the file.
 
 Step 20: chown root:wazuh /var/ossec/integrations/custom-telegram*
 
-Step 21: chmod 750 /var/osseec/integrations/custom-integration*
+Step 21: chmod 750 /var/osseec/integrations/custom-telegram*
 
 Step 22: open the ossec.conf # nano /var/ossec/etc/ossec.conf
 
